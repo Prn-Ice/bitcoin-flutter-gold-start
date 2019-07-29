@@ -108,6 +108,7 @@ class _PriceScreenState extends State<PriceScreen> {
           //TODO 2: You'll need to able to pass the selectedCurrency, value and cryptoCurrency to the constructor of this CryptoCard Widget.
           //TODO 3: You'll need to use a Column Widget to contain the three CryptoCards.
           Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: cards(),
           ),
           Container(
